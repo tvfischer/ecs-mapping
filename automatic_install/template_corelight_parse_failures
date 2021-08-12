@@ -13,6 +13,10 @@
         },
         "ignore_malformed": true
       },
+      "lifecycle": {
+        "name": "corelight_short",
+        "rollover_alias": "parse-failures-corelight"
+      },
       "refresh_interval": "30s"
     }
   },

@@ -1,6 +1,9 @@
 {
   "order" : 99,
-  "index_patterns": [ "temp-corelight*" ],
+  "index_patterns": [ 
+    "ecs-corelight-temporary*",
+    "temp-corelight*"
+  ],
   "version": 1901,
   "settings": {
     "index": {
@@ -8,6 +11,10 @@
         "coerce": false,
         "ignore_malformed": true,
         "total_fields.limit": 10000
+      },
+      "lifecycle": {
+        "name": "corelight_short",
+        "rollover_alias": "ecs-corelight-temporary"
       },
       "refresh_interval": "25s"
     },

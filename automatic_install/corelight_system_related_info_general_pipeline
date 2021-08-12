@@ -4,7 +4,7 @@
     {
       "set": {
         "field": "temporary_metadata_index_name_suffix",
-        "value": "system-{{event.dataset}}",
+        "value": "system",
         "ignore_failure": false
       }
     },

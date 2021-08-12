@@ -4,7 +4,7 @@
     {
       "set": {
         "field": "temporary_metadata_index_name_suffix",
-        "value": "stats-{{event.dataset}}",
+        "value": "stats",
         "ignore_failure": false
       }
     },
