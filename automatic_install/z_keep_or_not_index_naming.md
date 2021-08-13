@@ -1,6 +1,8 @@
 # Index Naming
 the following field `temporary_metadata_index_name_suffix` should be set under each type (below). 
 
+This version removes the date component from the Metadata/Metrics type logs
+
 ## Parse Failures
 - parse-failures-yyyy-MM-dd
 ## NSM Metadata type Logs
